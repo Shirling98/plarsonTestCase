@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; }
+
+.chat__header {
+  height: 50px;
+  background-color: red; }
+
+.chat {
+  display: flex;
+  height: 80vh; }
+  .chat__users {
+    background-color: black;
+    width: 200px;
+    overflow: auto; }
+    .chat__users-item {
+      color: white;
+      width: 180px;
+      height: 100px;
+      border: 1px solid white; }
+  .chat__window {
+    background-color: blue;
+    width: 100%;
+    overflow: auto; }
+    .chat__window-item {
+      color: white;
+      width: 80vw;
+      height: 100px;
+      border: 1px solid white; }
+
+.chat__footer {
+  height: 100px;
+  background-color: green; }
+
+/*# sourceMappingURL=style.css.map */
